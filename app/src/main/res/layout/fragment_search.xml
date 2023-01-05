@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<!--tools:context=".Search">-->
+
+<!-- TODO: Update blank fragment layout -->
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="SEARCH PAGE" />
+
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:id="@+id/lv1"
+    android:divider="@color/purple_200"
+    android:dividerHeight="2dp"
+    android:layout_below="@+id/searchView"/>
+
+<SearchView
+
+    android:id="@+id/searchView"
+    android:layout_marginTop="80dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:queryHint="Search Books"
+    android:iconifiedByDefault="false"
+    android:layout_alignParentTop="true"
+
+    />
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_marginStart="165dp"
+    android:background="#FBF9F9"/>
+<!--        app:srcCompat=""-->
+<!--        app:tint="@color/purple_200"-->
+
+
+</FrameLayout>
